@@ -1,0 +1,54 @@
+
+// font-family: 'Noto Serif TC', serif;  內文
+// font-family: 'Noto Sans TC', sans-serif; 標題
+header {
+   margin: 0 auto;
+   .nav{
+      display:flex;
+      justify-content:space-between;
+      align-items: center;
+      background-color: #f9e6d8;
+      width:100%;
+      position: fixed;
+      opacity: 0.7;
+      .logo {
+         padding:12px;
+         font: {
+            family: 'Noto Sans TC', sans-serif;
+            size: $size-s*2.5;
+         }
+      }
+      ul {
+         list-style: none;
+         margin-right:56px;
+      }
+      a {
+         text-decoration:none;
+         padding:9px 16px;
+      }
+   }
+   .menu {
+      li {
+         display:inline;
+      font: {
+         size:$size-s*2;
+      }
+      }
+   }
+   .banner{
+      background-image:url('../assets/banner.svg');
+      background-size: cover;
+      background-position: 50%;
+      height: 480px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 30px;
+      .banner_slogan{
+         font:{
+            size: 50px;
+         }
+      }
+   }
+}
+

@@ -1,0 +1,8 @@
+{
+    "liveSassCompile.settings.formats":[
+        {
+            "savePath": "/css" //預設生成地
+        }
+    ],
+    "liveSassCompile.settings.generateMap": false  //是否生成.map檔
+}

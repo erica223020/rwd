@@ -1,0 +1,22 @@
+//字體
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300&display=swap');
+
+//css reset
+@import 'reset';
+
+//變數
+@import 'variables';
+//mixin
+@import "mixin";
+
+//全站設定
+@import 'base';
+//版型 (通用)
+@import 'layout';
+
+//頁面
+@import "pages/index";
+@import "pages/products";
+@import "pages/login";
+@import "pages/register";
