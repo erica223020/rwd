@@ -8,7 +8,9 @@ header = '<header>\
     </ul>\
 </nav>\
 <section class="banner">\
-    <h2 class="banner_slogan">無法忘懷的香氣</br>享受獨特的個性</h2>\
+    <h2 class="banner_slogan slogan1">無法忘懷的香氣\
+    <p class="banner_slogan slogan2">享受獨特的個性</p>\
 </section>\
 </header>';
+
 document.write(header);

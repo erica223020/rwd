@@ -98,21 +98,37 @@ header .nav ul {
 header .nav a {
   text-decoration: none;
   padding: 9px 16px;
+  color: #707070;
 }
 header .menu li {
   display: inline;
   font-size: 24px;
 }
+header .menu li:hover {
+  font-weight: 900;
+}
+header .menu a {
+  color: #707070;
+  border-bottom: 3px solid transparent;
+}
 header .banner {
   background-image: url("../assets/banner.svg");
   background-size: cover;
   background-position: 50%;
-  height: 480px;
+  height: 510px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: left;
+  padding: 160px 0 150px 90px;
   margin-bottom: 30px;
 }
 header .banner .banner_slogan {
-  font-size: 50px;
+  font-size: 7vmin;
+  font-weight: 900;
+}
+header .banner .slogan1 {
+  color: #D5AA88;
+}
+header .banner .slogan2 {
+  padding-left: 7vmin;
+  color: #D08F6D;
 }
