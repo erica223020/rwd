@@ -8,6 +8,14 @@
     * 新增:建立`index.html`
 * 1.1
     * 新增:建立`README.md`
+* 1.2
+    * 新增:建立`style.css`
+* 2.0
+    * 刪除:`style.css`。新增：建立`main.scss`，並大幅更改整體佈局
+* 2.1
+    * 新增:將重複性header與footer以`header.js`、`footer.js`的方式導入
+* 2.1.1
+    * 修正：`_layout.scss`、`_base.scss`內部微小bug
 
 &nbsp;
 # 軟體使用
