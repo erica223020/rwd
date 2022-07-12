@@ -16,6 +16,9 @@
     * 新增:將重複性header與footer以`header.js`、`footer.js`的方式導入
 * 2.1.1
     * 修正：`_layout.scss`、`_base.scss`內部微小bug
+* 2.1.2
+    * 新增： `_layout.scss` hover效果
+
 
 &nbsp;
 # 軟體使用
