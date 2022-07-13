@@ -1,0 +1,36 @@
+.title{
+    font: {
+        size: 30px;
+    }
+    color:$light-color;
+    text-align:center;
+    margin-bottom: 28px;
+    line-height:1.5;
+    span {
+        display:block;
+        position: relative;
+        &::before ,&::after{
+            position: absolute;
+            content: ''; // 必寫，就算為空
+            width: 220px;
+            height: 1px;
+            background: #979797;
+        }
+        &::before{
+            left: 15%;
+        }
+        &::after{
+            right: 15%;
+        }
+    }
+}
+
+.card{
+    display:flex;
+    justify-content:space-around;
+    .circle{
+        width: 200px;
+        border-radius: 50%;
+        border: 1px solid #707070;  
+    }
+}

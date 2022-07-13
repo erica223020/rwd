@@ -147,3 +147,38 @@ header .banner .slogan2 {
   padding-left: 7vmin;
   color: #D08F6D;
 }
+
+.title {
+  font-size: 30px;
+  color: #D08F6D;
+  text-align: center;
+  margin-bottom: 28px;
+  line-height: 1.5;
+}
+.title span {
+  display: block;
+  position: relative;
+}
+.title span::before, .title span::after {
+  position: absolute;
+  content: "";
+  width: 220px;
+  height: 1px;
+  background: #979797;
+}
+.title span::before {
+  left: 15%;
+}
+.title span::after {
+  right: 15%;
+}
+
+.card {
+  display: flex;
+  justify-content: space-around;
+}
+.card .circle {
+  width: 200px;
+  border-radius: 50%;
+  border: 1px solid #707070;
+}
