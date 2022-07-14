@@ -18,6 +18,8 @@
     * 修正：`_layout.scss`、`_base.scss`內部微小bug
 * 2.1.2
     * 新增： `_layout.scss` hover效果
+* 2.2
+    * 新增： `_index.scss`、修改`_variables.scss`
 
 
 &nbsp;
