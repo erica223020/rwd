@@ -84,14 +84,16 @@
             <input id="tel" type="text" placeholder="0912345678">
             <label for="mail">信箱</label>
             <input id="mail" type="text"placeholder="xxxxx@gmail.com">
-            <input class="button" id="btn" value="送出" type="submit">
             <form action="index.html">
-                <p>是否需要專人帶領</p>
-                <input type="radio" id="chooseTrue" name="choose" value="true">
-                <label for="true">是</label>
-                <input type="radio" id="chooseFalse" name="choose" value="false">
-                <label for="false">否</label>
+                <label>是否需要專人帶領</label>
+                <div class="radio">
+                <label><input type="radio" name="choose" value="true"  checked>是</label>
+                <label><input type="radio" name="choose" value="false">否</label>
+            </div>
             </form>
+            <div class="button">
+            <input id="btn" value="取消" type="submit">            <input id="btn" value="送出" type="submit">
+            </div>
         </div>
         </div>
     </section>

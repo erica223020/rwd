@@ -1,4 +1,4 @@
-
+//header
 header {
    margin: 0 auto;
    .nav{
@@ -50,6 +50,9 @@ header {
             transform: scale(0);
             transform-origin: center;
          }
+         &:hover{
+            font-weight: bold;
+         }
          &:hover::after,
          &:focus::after {
             opacity: 0.8;
@@ -81,3 +84,12 @@ header {
    }
 }
 
+// footer
+
+footer{
+   background-color: #F9E6D8;
+   display: flex;
+   justify-content:space-around;
+   align-items:center;
+   padding:18px;
+}
