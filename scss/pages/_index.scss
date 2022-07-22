@@ -150,6 +150,9 @@
                 margin-bottom:16px;
                 border: 1px solid #ccc;
             }
+            .input_width{
+                width:40vw;
+            }
             .button{
                 border:none;
                 border-radius: 4px;
@@ -158,13 +161,23 @@
         .radio {
             margin-bottom: 30px;
             input:nth-child(1) {
-              margin-right: 12px;
+              margin-right:12px;
+              background-color: #B9B3B3;
+                &:hover{
+                background-color:#8b8484;
+                }
+            }
+            input:nth-child(2){
+                background-color: #FF6851;
+                &:hover{
+                    background-color:#e74e37;
+                }    
             }
           }
         .button{
             text-align: end;
             input{
-                color: pink;
+                color:#ffff;
                 border: none;
                 border-radius: 4px;
             }

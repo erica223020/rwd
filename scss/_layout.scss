@@ -30,7 +30,7 @@ header {
       li {
          display:inline;
       font: {
-         size:$size-s*2;
+         size:$size-s*1.5;
       }
       }
       a {
@@ -92,4 +92,42 @@ footer{
    justify-content:space-around;
    align-items:center;
    padding:18px;
+   .fa-grip-lines-vertical{
+      color:$primary-color;
+      font-size: 50px;
+   }
+   .logo_2{
+      text-align: center;
+      font-size:$size-l*1.2;
+      font-weight: bolder;
+   }
+   .link{
+      display: flex;
+      color:$primary-color;
+      i{
+         text-align: center;
+         font-size: $size-s*2;
+         border-width:1px;
+         border-style:solid;
+         border-color:$primary-color;
+         border-radius: 50%;
+         margin:5px 12px;
+         width:40px;
+         padding:7px;
+         &:hover{
+            background-color:$primary-color;
+            color:$primary-bg;
+         }
+      }
+   }
+   .footer_information{
+      li{
+         color:$primary-color;
+         font-size:$size-s*1.2;
+         font-weight: bold;
+      }
+      i{
+         margin:10px;
+      }
+   }
 }

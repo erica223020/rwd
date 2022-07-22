@@ -107,7 +107,7 @@ header .nav a {
 }
 header .menu li {
   display: inline;
-  font-size: 24px;
+  font-size: 18px;
 }
 header .menu a {
   color: #707070;
@@ -161,6 +161,42 @@ footer {
   justify-content: space-around;
   align-items: center;
   padding: 18px;
+}
+footer .fa-grip-lines-vertical {
+  color: #3D1101;
+  font-size: 50px;
+}
+footer .logo_2 {
+  text-align: center;
+  font-size: 43.2px;
+  font-weight: bolder;
+}
+footer .link {
+  display: flex;
+  color: #3D1101;
+}
+footer .link i {
+  text-align: center;
+  font-size: 24px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #3D1101;
+  border-radius: 50%;
+  margin: 5px 12px;
+  width: 40px;
+  padding: 7px;
+}
+footer .link i:hover {
+  background-color: #3D1101;
+  color: #F1EBE7;
+}
+footer .footer_information li {
+  color: #3D1101;
+  font-size: 14.4px;
+  font-weight: bold;
+}
+footer .footer_information i {
+  margin: 10px;
 }
 
 .title {
@@ -312,6 +348,9 @@ footer {
   margin-bottom: 16px;
   border: 1px solid #ccc;
 }
+.content_location .list_item .input_width {
+  width: 40vw;
+}
 .content_location .list_item .button {
   border: none;
   border-radius: 4px;
@@ -321,12 +360,22 @@ footer {
 }
 .content_location .radio input:nth-child(1) {
   margin-right: 12px;
+  background-color: #B9B3B3;
+}
+.content_location .radio input:nth-child(1):hover {
+  background-color: #8b8484;
+}
+.content_location .radio input:nth-child(2) {
+  background-color: #FF6851;
+}
+.content_location .radio input:nth-child(2):hover {
+  background-color: #e74e37;
 }
 .content_location .button {
   text-align: end;
 }
 .content_location .button input {
-  color: pink;
+  color: white;
   border: none;
   border-radius: 4px;
 }
