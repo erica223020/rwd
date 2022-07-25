@@ -7,7 +7,6 @@ footer = '<footer>\
     <li><i class="fa-brands fa-line"></i></li>\
 </ul>\
 </div>\
-<i class="fa-solid fa-grip-lines-vertical"></i>\
 <ul class="footer_information">\
     <li class="address"><i class="fa-solid fa-location-dot"></i>地址:台北市松山區三角路\
     </li>\
