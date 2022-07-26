@@ -91,14 +91,27 @@ header .nav {
   position: fixed;
   opacity: 0.8;
 }
+header .nav .show {
+  display: none;
+}
+@media (max-width: 576px) {
+  header .nav .show {
+    display: block;
+  }
+}
 header .nav .logo {
   padding: 12px;
   font-family: "Noto Sans TC", sans-serif;
   font-size: 30px;
 }
+@media (max-width: 576px) {
+  header .nav .logo {
+    font-size: 24px;
+  }
+}
 header .nav ul {
   list-style: none;
-  margin-right: 56px;
+  margin-right: 15px;
 }
 header .nav a {
   text-decoration: none;
@@ -108,6 +121,12 @@ header .nav a {
 header .menu li {
   display: inline;
   font-size: 18px;
+}
+@media (max-width: 576px) {
+  header .menu {
+    max-height: 0px;
+    overflow: hidden;
+  }
 }
 header .menu a {
   color: #707070;
@@ -142,6 +161,11 @@ header .banner {
   display: flex;
   justify-content: left;
   padding: 160px 0 150px 90px;
+}
+@media (max-width: 576px) {
+  header .banner {
+    background-image: url("../assets/banner_moblie.svg");
+  }
 }
 header .banner .banner_slogan {
   font-size: 7vmin;

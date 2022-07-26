@@ -9,16 +9,25 @@ header {
       width:100%;
       position: fixed;
       opacity: 0.8;
+      .show{
+         display: none;
+         @include mobile{
+            display: block;
+          }
+      }
       .logo {
          padding:12px;
          font: {
             family: 'Noto Sans TC', sans-serif;
             size: $size-s*2.5;
          }
+         @include mobile{
+            font-size: $size-s*2;
+          }
       }
       ul {
          list-style: none;  //大多下在ul
-         margin-right:56px;
+         margin-right:15px;
       }
       a {
          text-decoration:none;
@@ -33,6 +42,11 @@ header {
          size:$size-s*1.5;
       }
       }
+      @include mobile{
+         // 隱藏選單
+         max-height: 0px;
+         overflow: hidden;
+       }
       a {
          color: #707070;
          border-bottom:3px solid transparent;
@@ -68,6 +82,9 @@ header {
       display: flex;
       justify-content: left;
       padding:160px 0 150px 90px;
+      @include mobile{
+         background-image:url('../assets/banner_moblie.svg');
+       }
       .banner_slogan{
          font:{
             size: 7vmin;
