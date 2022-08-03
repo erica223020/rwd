@@ -9,7 +9,7 @@ header = '<header>\
     <a href="#"><i class="fa-solid fa-bars"></i></a>\
 </nav>\
 <section class="banner">\
-    <h2 class="banner_slogan slogan1">無法忘懷的香氣\
+    <h2 class="banner_slogan slogan1">無法忘懷的香氣</h2>\
     <p class="banner_slogan slogan2">享受獨特的個性</p>\
 </section>\
 </header>';

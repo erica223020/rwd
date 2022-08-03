@@ -91,12 +91,14 @@ header .nav {
   position: fixed;
   opacity: 0.8;
 }
-header .nav .show {
+header .nav .fa-bars {
+  font-size: 24px;
   display: none;
 }
 @media (max-width: 576px) {
-  header .nav .show {
+  header .nav .fa-bars {
     display: block;
+    padding: 8px 16px;
   }
 }
 header .nav .logo {
@@ -121,12 +123,6 @@ header .nav a {
 header .menu li {
   display: inline;
   font-size: 18px;
-}
-@media (max-width: 576px) {
-  header .menu {
-    max-height: 0px;
-    overflow: hidden;
-  }
 }
 header .menu a {
   color: #707070;
@@ -153,6 +149,19 @@ header .menu a:hover::after, header .menu a:focus::after {
   opacity: 0.8;
   transform: scale(1);
 }
+@media (max-width: 576px) {
+  header .menu {
+    display: block;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 0;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.4s;
+  }
+}
 header .banner {
   background-image: url("../assets/banner.svg");
   background-size: cover;
@@ -161,6 +170,7 @@ header .banner {
   display: flex;
   justify-content: left;
   padding: 160px 0 150px 90px;
+  display: block;
 }
 @media (max-width: 576px) {
   header .banner {
@@ -365,6 +375,7 @@ footer .footer_information i {
   margin-left: 20px;
 }
 .content_location .list_item label {
+  padding-top: 20px;
   margin-bottom: 6px;
 }
 .content_location .list_item input {
