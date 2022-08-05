@@ -91,15 +91,17 @@ header .nav {
   position: fixed;
   opacity: 0.8;
 }
-header .nav .fa-bars {
-  font-size: 24px;
+header .nav .menu_logo {
   display: none;
 }
 @media (max-width: 576px) {
-  header .nav .fa-bars {
+  header .nav .menu_logo {
     display: block;
     padding: 8px 16px;
   }
+}
+header .nav .fa-bars {
+  font-size: 24px;
 }
 header .nav .logo {
   padding: 12px;

@@ -6,7 +6,7 @@ header = '<header>\
         <li><a href="login.html">登入</a></li>\
         <li><a href="pre-order.html">線上預購</a></li>\
     </ul>\
-    <a href="#"><i class="fa-solid fa-bars"></i></a>\
+    <a href="#" class="menu_logo"><i class="fa-solid fa-bars"></i></a>\
 </nav>\
 <section class="banner">\
     <h2 class="banner_slogan slogan1">無法忘懷的香氣</h2>\

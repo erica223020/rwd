@@ -40,3 +40,5 @@
 遇到的小問題
 1.標題有超過兩行字的時候，可以第二行使用span 然後設定display:block屬性來換行
 2.text-align:適用於「 block container 」
+3.menu右側會空一大格
+//已解決 要連a連結一起隱藏，不能夠只隱藏logo

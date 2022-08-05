@@ -9,13 +9,15 @@ header {
       width:100%;
       position: fixed;
       opacity: 0.8;
-      .fa-bars {
-         font-size: 24px;
+      .menu_logo{
          display:none;
          @include mobile{
             display:block;
             padding: 8px 16px;
          }
+      }
+      .fa-bars {
+         font-size: 24px;
       }
       .logo {
          padding:12px;
