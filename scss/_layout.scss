@@ -72,7 +72,7 @@ header {
             transform: scale(1);
          }
       }
-      @include mobile {
+      @include mobile{
          display: block;
          position: absolute;
          top: 60px;
@@ -82,7 +82,19 @@ header {
          text-align: center;
          overflow: hidden;
          transition: all 0.4s;
-      }
+            li{
+               border-bottom: #63b962 1px solid; 
+            }
+         }
+         .menu_logo{
+            display: block;
+         }
+         .menu-open .menu {
+               max-height: 301px;
+         }
+      // @include mobile {
+
+      // }
    }
    .banner{
       background-image:url('../assets/banner.svg');

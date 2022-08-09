@@ -163,6 +163,15 @@ header .menu a:hover::after, header .menu a:focus::after {
     overflow: hidden;
     transition: all 0.4s;
   }
+  header .menu li {
+    border-bottom: #63b962 1px solid;
+  }
+}
+header .menu .menu_logo {
+  display: block;
+}
+header .menu .menu-open .menu {
+  max-height: 301px;
 }
 header .banner {
   background-image: url("../assets/banner.svg");
