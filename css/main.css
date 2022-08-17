@@ -153,25 +153,25 @@ header .menu a:hover::after, header .menu a:focus::after {
 }
 @media (max-width: 576px) {
   header .menu {
-    display: block;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    width: 100%;
-    height: 0;
-    text-align: center;
+    max-height: 0px;
     overflow: hidden;
-    transition: all 0.4s;
-  }
-  header .menu li {
-    border-bottom: #63b962 1px solid;
+    transition: max-height 0.7s;
+    position: absolute;
+    z-index: 100;
+    top: 48px;
+    left: 0;
+    right: -15px;
+    background-color: #f9e6d8;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
   }
 }
-header .menu .menu_logo {
-  display: block;
+header .menu li {
+  padding: 16px;
 }
-header .menu .menu-open .menu {
-  max-height: 301px;
+header .menu-open {
+  max-height: 300px;
 }
 header .banner {
   background-image: url("../assets/banner.svg");

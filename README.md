@@ -42,3 +42,6 @@
 2.text-align:適用於「 block container 」
 3.menu右側會空一大格
 //已解決 要連a連結一起隱藏，不能夠只隱藏logo
+
+4.toggleClass一直失敗，沒辦法讓他點一下出現
+//已解決 在上一層toggleClass就好，一開始設定body太太遠了

@@ -1,7 +1,6 @@
-$(document).ready(function () {
-    $(".menu_logo").click(function (e) {
-      e.preventDefault();
-      $("body").toggleClass("menu-open");
-    });
-  });
-  
+$(document).ready(function() {
+  $('.menu_logo').on('click',  function(e){
+     e.preventDefault();
+     $('.menu').toggleClass('menu-open');
+ });
+});
