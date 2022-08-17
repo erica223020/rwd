@@ -2,6 +2,9 @@
     font: {
         size: 28px;
     }
+    @include mobile{
+        font-size: 22px;
+    }
     color:$light-color;
     text-align:center;
     padding: 28px 0px;
@@ -32,6 +35,11 @@
         text-align: center;
         justify-content:space-around;
         background-color: $primary-bg;
+        @include mobile{
+            display: flex;
+            flex-direction: column;
+            align-items: center;    
+        }
         .circle{
             width: 200px;
             border-radius: 50%;
@@ -51,6 +59,9 @@
             font: {
                 size: 16px;
             }
+            @include mobile{
+            width: 368px;
+        }
         }
     }
 }
@@ -61,8 +72,16 @@
     align-items:center;
     justify-content: space-around;
     color:#ebebe9;
+    @include pad{
+        display: flex;
+        flex-direction: column;
+    }
     img{
         -webkit-filter:opacity(.5);
+        @include pad{
+            width:100%;
+            padding:15px 30px;
+        }
     }
     .content_introduce_triangle{
         margin-left:30px;
@@ -77,11 +96,27 @@
         p{
             line-height: 2.5;
         }
+        @include pad{
+            text-align: center;
+            h3{
+                margin-top: 30px;
+            }
+            p{
+                margin-bottom: 30px;
+            }
+        }
     }    
 }
 
 .content_review {
     background-color: $primary-bg;
+    @include mobile{
+        .content_review_people{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+    }
     h2{
         font-size: $size-s*2;
         text-align: center;
@@ -100,6 +135,9 @@
         align-items: flex-start;
         width: 300px;
         color:$light-color;
+        @include mobile{
+        width:354px;
+        }
     }
     h4{
         font-size: $size-s*1.5;
@@ -121,6 +159,12 @@
     font-size: 20px;
     color:white;
     padding: 50px 0;
+    @include mobile{
+        .list_item{
+        display: flex;
+        flex-direction: column;
+        }
+    }
     h2{
         text-align: center;
         font-size: 28px;
@@ -131,8 +175,12 @@
     }
     .map{
         width: 40%;
-        object-fit: cover;
+        object-fit: cover;  //圖片剛好填滿
         padding:0 40px 50px 0px;
+        @include mobile{
+            width: 100%;
+            padding:20px;
+    }
     }
     .list_item{
         display: flex;
@@ -144,7 +192,10 @@
         }
             label{
                 padding-top:20px;
-                margin-bottom:6px;    
+                margin-bottom:6px;
+                @include mobile{
+                    padding: 20px 0 0 10px;
+                }
             }
             input{
                 padding:7px 14px;
@@ -153,6 +204,10 @@
             }
             .input_width{
                 width:40vw;
+                @include mobile{
+                    width:90%;
+                    margin: 0 10px;
+                }
             }
             .button{
                 border:none;
@@ -181,6 +236,10 @@
                 color:#ffff;
                 border: none;
                 border-radius: 4px;
+                @include mobile{
+                    font-size: $size-s*2;
+                    margin-right: 36px;
+                }
             }
         }
     }
