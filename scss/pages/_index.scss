@@ -35,7 +35,7 @@
         text-align: center;
         justify-content:space-around;
         background-color: $primary-bg;
-        @include mobile{
+        @include pad{
             display: flex;
             flex-direction: column;
             align-items: center;    
@@ -54,14 +54,17 @@
         }
         p{
             margin:12px 0 50px 0;
-            width: 260px;
+            width: 240px;
             color: $primary-color;
             font: {
                 size: 16px;
             }
+            @include pad{
+                width: 568px;
+            }
             @include mobile{
             width: 368px;
-        }
+            }
         }
     }
 }
@@ -98,6 +101,7 @@
         }
         @include pad{
             text-align: center;
+            margin-left:0px;
             h3{
                 margin-top: 30px;
             }

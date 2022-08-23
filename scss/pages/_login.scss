@@ -1,0 +1,46 @@
+.login_slogan{
+    text-align: center;
+    .title{
+        font:{
+            weight: bold;
+            size: $size-l*1.2;
+        }
+        color:$primary-color;
+        padding:34px 0 5px 0;
+    }
+
+}
+.subtitle{
+    font:{
+        weight: bold;
+        size: $size-s*1.5;
+    }
+    color:$primary-color;
+}
+.login_input{
+    display: flex; 
+    justify-content:center;
+    .login_input_list {
+        width: 300px;
+        height: 273px;
+        margin:24px 0 60px 0;
+        padding-top:15px;
+        box-shadow: 0px 5px 10px #00000029;
+        display: flex; 
+        flex-direction:column;
+        align-items:center;
+        .username,.password{
+            border: 1px solid black;
+            border-radius: 2px; // 圓角
+            background: #fff; // 背景色
+            width:200px;
+            padding:5px;
+            border-radius: 20px; 
+        }
+        input{
+            border: none;
+            outline: none; //input被foucs時不要有周圍的藍框
+        }
+    }
+    
+}

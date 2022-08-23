@@ -19,7 +19,11 @@
 * 2.1.2
     * 新增： `_layout.scss` hover效果
 * 2.2
-    * 新增： `_index.scss`、修改`_variables.scss`
+    * 新增： `_index.scss`，修正：`_variables.scss`
+* 3.0
+    * 新增： 首頁手機版型、首頁平板版型
+* 3.1
+    * 修正`_index.scss`、`_base.scss`、`_layout.scss`、`index.html`手機版型造成的版型問題
 
 
 &nbsp;
@@ -46,5 +50,8 @@
 4.toggleClass一直失敗，沒辦法讓他點一下出現
 //已解決 在上一層toggleClass就好，一開始設定body太太遠了
 
-5.把icon放進去
-//https://www.html.cn/qa/css3/10456.html
+5.header的menu會被圖片蓋到
+//已解決，使用 z-index: 決定元素重疊時的上下層;
+
+6.input內部無法加入圖示
+//已解決 ，在外部新增div將input以及圖示包起來

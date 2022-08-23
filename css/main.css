@@ -90,6 +90,7 @@ header .nav {
   width: 100%;
   position: fixed;
   opacity: 0.8;
+  z-index: 3;
 }
 header .nav .menu_logo {
   display: none;
@@ -177,7 +178,7 @@ header .banner {
   background-image: url("../assets/banner.svg");
   background-size: cover;
   background-position: 50%;
-  height: 510px;
+  height: 400px;
   display: flex;
   justify-content: left;
   padding: 160px 0 150px 90px;
@@ -189,7 +190,7 @@ header .banner {
   }
 }
 header .banner .banner_slogan {
-  font-size: 7vmin;
+  font-size: 6vmin;
   font-weight: 900;
 }
 header .banner .slogan1 {
@@ -205,11 +206,11 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 18px;
+  padding: 10px;
 }
 footer .fa-grip-lines-vertical {
   color: #3D1101;
-  font-size: 50px;
+  font-size: 30px;
 }
 footer .logo_2 {
   text-align: center;
@@ -283,7 +284,7 @@ footer .footer_information i {
   justify-content: space-around;
   background-color: #F1EBE7;
 }
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .content_3why .card {
     display: flex;
     flex-direction: column;
@@ -302,9 +303,14 @@ footer .footer_information i {
 }
 .content_3why .card p {
   margin: 12px 0 50px 0;
-  width: 260px;
+  width: 240px;
   color: #3D1101;
   font-size: 16px;
+}
+@media (max-width: 768px) {
+  .content_3why .card p {
+    width: 568px;
+  }
 }
 @media (max-width: 576px) {
   .content_3why .card p {
@@ -351,6 +357,7 @@ footer .footer_information i {
 @media (max-width: 768px) {
   .content_introduce .content_introduce_triangle {
     text-align: center;
+    margin-left: 0px;
   }
   .content_introduce .content_introduce_triangle h3 {
     margin-top: 30px;
@@ -505,4 +512,47 @@ footer .footer_information i {
     font-size: 24px;
     margin-right: 36px;
   }
+}
+
+.login_slogan {
+  text-align: center;
+}
+.login_slogan .title {
+  font-weight: bold;
+  font-size: 43.2px;
+  color: #3D1101;
+  padding: 34px 0 5px 0;
+}
+
+.subtitle {
+  font-weight: bold;
+  font-size: 18px;
+  color: #3D1101;
+}
+
+.login_input {
+  display: flex;
+  justify-content: center;
+}
+.login_input .login_input_list {
+  width: 300px;
+  height: 273px;
+  margin: 24px 0 60px 0;
+  padding-top: 15px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1607843137);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login_input .login_input_list .username, .login_input .login_input_list .password {
+  border: 1px solid black;
+  border-radius: 2px;
+  background: #fff;
+  width: 200px;
+  padding: 5px;
+  border-radius: 20px;
+}
+.login_input .login_input_list input {
+  border: none;
+  outline: none;
 }
