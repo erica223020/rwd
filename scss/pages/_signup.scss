@@ -1,0 +1,15 @@
+.signup_input{
+    display: flex; 
+    justify-content:center;
+    .signup_input_list {
+        width: 648px;
+        margin:5px 0 60px 0;
+        padding:20px 0;
+        box-shadow: 0px 5px 10px
+        #00000029;
+        background-color: #f7f2ef;
+        border-top:3px solid $highlight-color;
+        display: flex; 
+        align-items:center; 
+}
+}

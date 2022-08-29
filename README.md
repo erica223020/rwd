@@ -47,7 +47,7 @@
     * 已解決 要連a連結一起隱藏，不能夠只隱藏logo
 
 * toggleClass一直失敗，沒辦法讓他點一下出現
-    * 已解決 在上一層toggleClass就好，一開始設定body太太遠了
+    * 已解決 在上一層toggleClass就好，一開始設定body太遠了
 
 * header的menu會被圖片蓋到
     * 已解決，使用 z-index: 決定元素重疊時的上下層;

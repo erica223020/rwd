@@ -542,9 +542,8 @@ body {
 }
 .login_input .login_input_list {
   width: 300px;
-  height: 273px;
+  padding: 20px 0;
   margin: 5px 0 60px 0;
-  padding-top: 15px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1607843137);
   background-color: #f7f2ef;
   border-top: 3px solid #FF6851;
@@ -596,4 +595,19 @@ body {
 }
 .login_input .login_input_list .button input:nth-child(2):hover {
   background-color: #e74e37;
+}
+
+.signup_input {
+  display: flex;
+  justify-content: center;
+}
+.signup_input .signup_input_list {
+  width: 648px;
+  margin: 5px 0 60px 0;
+  padding: 20px 0;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1607843137);
+  background-color: #f7f2ef;
+  border-top: 3px solid #FF6851;
+  display: flex;
+  align-items: center;
 }
