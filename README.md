@@ -38,20 +38,19 @@
 * medskin 品牌官方網站
 * 六角西餐廳
 
+&nbsp;
+## 遇到問題
 
+* 1.標題有超過兩行字的時候，可以第二行使用span 然後設定display:block屬性來換行
+* 2.text-align:適用於「 block container 」
+* 3.menu右側會空一大格
+    * 已解決 要連a連結一起隱藏，不能夠只隱藏logo
 
-//
-遇到的小問題
-1.標題有超過兩行字的時候，可以第二行使用span 然後設定display:block屬性來換行
-2.text-align:適用於「 block container 」
-3.menu右側會空一大格
-//已解決 要連a連結一起隱藏，不能夠只隱藏logo
+* toggleClass一直失敗，沒辦法讓他點一下出現
+    * 已解決 在上一層toggleClass就好，一開始設定body太太遠了
 
-4.toggleClass一直失敗，沒辦法讓他點一下出現
-//已解決 在上一層toggleClass就好，一開始設定body太太遠了
+* header的menu會被圖片蓋到
+    * 已解決，使用 z-index: 決定元素重疊時的上下層;
 
-5.header的menu會被圖片蓋到
-//已解決，使用 z-index: 決定元素重疊時的上下層;
-
-6.input內部無法加入圖示
-//已解決 ，在外部新增div將input以及圖示包起來
+* input內部無法加入圖示
+    * 已解決 ，在外部新增div將input以及圖示包起來
