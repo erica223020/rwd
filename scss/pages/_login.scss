@@ -1,3 +1,6 @@
+body{
+    background-color: #F1EBE7;
+}
 .login_slogan{
     text-align: center;
     .title{
@@ -15,6 +18,7 @@
         weight: bold;
         size: $size-s*1.5;
     }
+    margin-bottom:16px;
     color:$primary-color;
 }
 .login_input{
@@ -23,9 +27,12 @@
     .login_input_list {
         width: 300px;
         height: 273px;
-        margin:24px 0 60px 0;
+        margin:5px 0 60px 0;
         padding-top:15px;
-        box-shadow: 0px 5px 10px #00000029;
+        box-shadow: 0px 5px 10px
+        #00000029;
+        background-color: #f7f2ef;
+        border-top:3px solid $highlight-color;
         display: flex; 
         flex-direction:column;
         align-items:center;
@@ -33,14 +40,47 @@
             border: 1px solid black;
             border-radius: 2px; // 圓角
             background: #fff; // 背景色
-            width:200px;
-            padding:5px;
-            border-radius: 20px; 
+            width:270px;
+            padding:6px;
+            border-radius: 20px;
+            margin:3px 0;
+        }
+        .username{
+            margin-bottom:15px;
+        }
+        .label_title{
+          color:$primary-color; 
         }
         input{
             border: none;
             outline: none; //input被foucs時不要有周圍的藍框
         }
+        .forget{
+            color:$highlight-color;
+            font-size: 14px;
+        }
+        .btn{
+            cursor: pointer;//手指鼠標
+            padding:7px 50px;
+            border-radius: 11px;
+            color:#fff;
+        }
+        .button {
+            margin-top:20px;
+            input:nth-child(1) { //起始值是1
+              margin-right:12px;
+              background-color: #B9B3B3;
+                &:hover{
+                background-color:#8b8484;
+                }
+            }
+            input:nth-child(2){
+                background-color: $highlight-color;
+                &:hover{
+                    background-color:#e74e37;
+                }    
+            }
+          }
     }
     
 }

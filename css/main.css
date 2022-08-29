@@ -482,6 +482,7 @@ footer .footer_information i {
 .content_location .list_item .button {
   border: none;
   border-radius: 4px;
+  border-radius: 11px;
 }
 .content_location .radio {
   margin-bottom: 30px;
@@ -514,6 +515,10 @@ footer .footer_information i {
   }
 }
 
+body {
+  background-color: #F1EBE7;
+}
+
 .login_slogan {
   text-align: center;
 }
@@ -527,6 +532,7 @@ footer .footer_information i {
 .subtitle {
   font-weight: bold;
   font-size: 18px;
+  margin-bottom: 16px;
   color: #3D1101;
 }
 
@@ -537,9 +543,11 @@ footer .footer_information i {
 .login_input .login_input_list {
   width: 300px;
   height: 273px;
-  margin: 24px 0 60px 0;
+  margin: 5px 0 60px 0;
   padding-top: 15px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1607843137);
+  background-color: #f7f2ef;
+  border-top: 3px solid #FF6851;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -548,11 +556,44 @@ footer .footer_information i {
   border: 1px solid black;
   border-radius: 2px;
   background: #fff;
-  width: 200px;
-  padding: 5px;
+  width: 270px;
+  padding: 6px;
   border-radius: 20px;
+  margin: 3px 0;
+}
+.login_input .login_input_list .username {
+  margin-bottom: 15px;
+}
+.login_input .login_input_list .label_title {
+  color: #3D1101;
 }
 .login_input .login_input_list input {
   border: none;
   outline: none;
+}
+.login_input .login_input_list .forget {
+  color: #FF6851;
+  font-size: 14px;
+}
+.login_input .login_input_list .btn {
+  cursor: pointer;
+  padding: 7px 50px;
+  border-radius: 11px;
+  color: #fff;
+}
+.login_input .login_input_list .button {
+  margin-top: 20px;
+}
+.login_input .login_input_list .button input:nth-child(1) {
+  margin-right: 12px;
+  background-color: #B9B3B3;
+}
+.login_input .login_input_list .button input:nth-child(1):hover {
+  background-color: #8b8484;
+}
+.login_input .login_input_list .button input:nth-child(2) {
+  background-color: #FF6851;
+}
+.login_input .login_input_list .button input:nth-child(2):hover {
+  background-color: #e74e37;
 }

@@ -20,20 +20,21 @@
         <div class="login_input_list">
         <h4 class="subtitle">LOGIN</h4>
         <form>
-            <label for="name">Username*</label>
+            <label for="name" class="label_title">Username*</label>
             <div class="username">
                 <i class="fa-solid fa-user"></i>
                 <input type="text" id="username">
             </div>
-            <label for="password">Password*</label>
+            <label for="password" class="label_title">Password*</label>
             <div class="password">
                 <i class="fa-solid fa-lock"></i>
                 <input type="text" id="password">
             </div>
             <a href="#" class="forget">忘記密碼？</a>
             <div class="button">
-                <input id="btn" value="註冊" type="button">      
-                <input id="btn" value="登入" type="submit">
+                <input id="btn" class="btn" value="註冊" type="button"
+                onclick="location.href='sign up.html'">      
+                <input id="btn" class="btn" value="登入" type="submit">
             </div>
             </form>
         </div>
