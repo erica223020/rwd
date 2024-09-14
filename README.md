@@ -28,7 +28,7 @@
 
 &nbsp;
 # 軟體使用
-* 設計圖繪製 : AdobeXD (線上標示文件https://reurl.cc/6ZnddM)
+* 設計圖繪製使用 : AdobeXD (線上標示文件設計稿：https://reurl.cc/6ZnddM)
 * 程式設計 ： VSCode
 * 圖片編輯 ： Adobe Photoshop
 
